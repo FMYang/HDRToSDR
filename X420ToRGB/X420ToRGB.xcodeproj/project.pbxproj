@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88408B292A84986F00707AB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408B282A84986F00707AB1 /* AppDelegate.m */; };
+		88408B2C2A84986F00707AB1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408B2B2A84986F00707AB1 /* SceneDelegate.m */; };
+		88408B2F2A84986F00707AB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408B2E2A84986F00707AB1 /* ViewController.m */; };
+		88408B322A84986F00707AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88408B302A84986F00707AB1 /* Main.storyboard */; };
+		88408B342A84987000707AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88408B332A84987000707AB1 /* Assets.xcassets */; };
+		88408B372A84987000707AB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88408B352A84987000707AB1 /* LaunchScreen.storyboard */; };
+		88408B3A2A84987000707AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408B392A84987000707AB1 /* main.m */; };
+		88408B422A84989100707AB1 /* CameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408B412A84989100707AB1 /* CameraVC.m */; };
+		88408B482A8499EA00707AB1 /* FMMetalCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408B472A8499EA00707AB1 /* FMMetalCameraView.m */; };
+		88408B4B2A849A7C00707AB1 /* ZYMetalDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408B4A2A849A7C00707AB1 /* ZYMetalDevice.m */; };
+		88408B4D2A849BB500707AB1 /* Camera.metal in Sources */ = {isa = PBXBuildFile; fileRef = 88408B4C2A849BB500707AB1 /* Camera.metal */; };
+		88408B502A85D98300707AB1 /* ZYProCameraMovieRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408B4F2A85D98300707AB1 /* ZYProCameraMovieRecorder.m */; };
+		88408B522A85EA2E00707AB1 /* original.mov in Resources */ = {isa = PBXBuildFile; fileRef = 88408B512A85EA2E00707AB1 /* original.mov */; };
+		88408BCE2A8C7BA600707AB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408BCD2A8C7BA600707AB1 /* AppDelegate.m */; };
+		88408BD12A8C7BA600707AB1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408BD02A8C7BA600707AB1 /* SceneDelegate.m */; };
+		88408BD42A8C7BA600707AB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408BD32A8C7BA600707AB1 /* ViewController.m */; };
+		88408BD72A8C7BA600707AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88408BD52A8C7BA600707AB1 /* Main.storyboard */; };
+		88408BD92A8C7BA800707AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88408BD82A8C7BA800707AB1 /* Assets.xcassets */; };
+		88408BDC2A8C7BA800707AB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88408BDA2A8C7BA800707AB1 /* LaunchScreen.storyboard */; };
+		88408BDF2A8C7BA800707AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408BDE2A8C7BA800707AB1 /* main.m */; };
+		88408BE52A8C7C9B00707AB1 /* CameraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408BE42A8C7C9B00707AB1 /* CameraVC.m */; };
+		88408BEB2A8C7CBF00707AB1 /* Camera.metal in Sources */ = {isa = PBXBuildFile; fileRef = 88408BE62A8C7CBF00707AB1 /* Camera.metal */; };
+		88408BEC2A8C7CBF00707AB1 /* FMMetalCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408BE82A8C7CBF00707AB1 /* FMMetalCameraView.m */; };
+		88408BED2A8C7CBF00707AB1 /* ZYMetalDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408BE92A8C7CBF00707AB1 /* ZYMetalDevice.m */; };
+		88408BEF2A8C7E7600707AB1 /* HDR.metal in Sources */ = {isa = PBXBuildFile; fileRef = 88408BEE2A8C7E7600707AB1 /* HDR.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88408B242A84986F00707AB1 /* X420ToRGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = X420ToRGB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88408B272A84986F00707AB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88408B282A84986F00707AB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88408B2A2A84986F00707AB1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		88408B2B2A84986F00707AB1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		88408B2D2A84986F00707AB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88408B2E2A84986F00707AB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88408B312A84986F00707AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88408B332A84987000707AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88408B362A84987000707AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88408B382A84987000707AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88408B392A84987000707AB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88408B402A84989100707AB1 /* CameraVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraVC.h; sourceTree = "<group>"; };
+		88408B412A84989100707AB1 /* CameraVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraVC.m; sourceTree = "<group>"; };
+		88408B462A8499EA00707AB1 /* FMMetalCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMetalCameraView.h; sourceTree = "<group>"; };
+		88408B472A8499EA00707AB1 /* FMMetalCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMetalCameraView.m; sourceTree = "<group>"; };
+		88408B492A849A7C00707AB1 /* ZYMetalDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMetalDevice.h; sourceTree = "<group>"; };
+		88408B4A2A849A7C00707AB1 /* ZYMetalDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMetalDevice.m; sourceTree = "<group>"; };
+		88408B4C2A849BB500707AB1 /* Camera.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Camera.metal; sourceTree = "<group>"; };
+		88408B4E2A85D98300707AB1 /* ZYProCameraMovieRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYProCameraMovieRecorder.h; sourceTree = "<group>"; };
+		88408B4F2A85D98300707AB1 /* ZYProCameraMovieRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYProCameraMovieRecorder.m; sourceTree = "<group>"; };
+		88408B512A85EA2E00707AB1 /* original.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = original.mov; sourceTree = "<group>"; };
+		88408BCA2A8C7BA600707AB1 /* MetalHDRToRGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalHDRToRGB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88408BCC2A8C7BA600707AB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88408BCD2A8C7BA600707AB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88408BCF2A8C7BA600707AB1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		88408BD02A8C7BA600707AB1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		88408BD22A8C7BA600707AB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88408BD32A8C7BA600707AB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88408BD62A8C7BA600707AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88408BD82A8C7BA800707AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88408BDB2A8C7BA800707AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88408BDD2A8C7BA800707AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88408BDE2A8C7BA800707AB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88408BE32A8C7C9B00707AB1 /* CameraVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraVC.h; sourceTree = "<group>"; };
+		88408BE42A8C7C9B00707AB1 /* CameraVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraVC.m; sourceTree = "<group>"; };
+		88408BE62A8C7CBF00707AB1 /* Camera.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Camera.metal; sourceTree = "<group>"; };
+		88408BE72A8C7CBF00707AB1 /* ZYMetalDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMetalDevice.h; sourceTree = "<group>"; };
+		88408BE82A8C7CBF00707AB1 /* FMMetalCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMetalCameraView.m; sourceTree = "<group>"; };
+		88408BE92A8C7CBF00707AB1 /* ZYMetalDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMetalDevice.m; sourceTree = "<group>"; };
+		88408BEA2A8C7CBF00707AB1 /* FMMetalCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMetalCameraView.h; sourceTree = "<group>"; };
+		88408BEE2A8C7E7600707AB1 /* HDR.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = HDR.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88408B212A84986F00707AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88408BC72A8C7BA600707AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88408B1B2A84986F00707AB1 = {
+			isa = PBXGroup;
+			children = (
+				88408B262A84986F00707AB1 /* X420ToRGB */,
+				88408BCB2A8C7BA600707AB1 /* MetalHDRToRGB */,
+				88408B252A84986F00707AB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88408B252A84986F00707AB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88408B242A84986F00707AB1 /* X420ToRGB.app */,
+				88408BCA2A8C7BA600707AB1 /* MetalHDRToRGB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88408B262A84986F00707AB1 /* X420ToRGB */ = {
+			isa = PBXGroup;
+			children = (
+				88408B512A85EA2E00707AB1 /* original.mov */,
+				88408B4C2A849BB500707AB1 /* Camera.metal */,
+				88408B492A849A7C00707AB1 /* ZYMetalDevice.h */,
+				88408B4A2A849A7C00707AB1 /* ZYMetalDevice.m */,
+				88408B462A8499EA00707AB1 /* FMMetalCameraView.h */,
+				88408B472A8499EA00707AB1 /* FMMetalCameraView.m */,
+				88408B272A84986F00707AB1 /* AppDelegate.h */,
+				88408B282A84986F00707AB1 /* AppDelegate.m */,
+				88408B2A2A84986F00707AB1 /* SceneDelegate.h */,
+				88408B2B2A84986F00707AB1 /* SceneDelegate.m */,
+				88408B2D2A84986F00707AB1 /* ViewController.h */,
+				88408B2E2A84986F00707AB1 /* ViewController.m */,
+				88408B302A84986F00707AB1 /* Main.storyboard */,
+				88408B332A84987000707AB1 /* Assets.xcassets */,
+				88408B352A84987000707AB1 /* LaunchScreen.storyboard */,
+				88408B382A84987000707AB1 /* Info.plist */,
+				88408B392A84987000707AB1 /* main.m */,
+				88408B402A84989100707AB1 /* CameraVC.h */,
+				88408B412A84989100707AB1 /* CameraVC.m */,
+				88408B4E2A85D98300707AB1 /* ZYProCameraMovieRecorder.h */,
+				88408B4F2A85D98300707AB1 /* ZYProCameraMovieRecorder.m */,
+			);
+			path = X420ToRGB;
+			sourceTree = "<group>";
+		};
+		88408BCB2A8C7BA600707AB1 /* MetalHDRToRGB */ = {
+			isa = PBXGroup;
+			children = (
+				88408BCC2A8C7BA600707AB1 /* AppDelegate.h */,
+				88408BCD2A8C7BA600707AB1 /* AppDelegate.m */,
+				88408BCF2A8C7BA600707AB1 /* SceneDelegate.h */,
+				88408BD02A8C7BA600707AB1 /* SceneDelegate.m */,
+				88408BD22A8C7BA600707AB1 /* ViewController.h */,
+				88408BD32A8C7BA600707AB1 /* ViewController.m */,
+				88408BD52A8C7BA600707AB1 /* Main.storyboard */,
+				88408BD82A8C7BA800707AB1 /* Assets.xcassets */,
+				88408BDA2A8C7BA800707AB1 /* LaunchScreen.storyboard */,
+				88408BDD2A8C7BA800707AB1 /* Info.plist */,
+				88408BDE2A8C7BA800707AB1 /* main.m */,
+				88408BE32A8C7C9B00707AB1 /* CameraVC.h */,
+				88408BE42A8C7C9B00707AB1 /* CameraVC.m */,
+				88408BE62A8C7CBF00707AB1 /* Camera.metal */,
+				88408BEA2A8C7CBF00707AB1 /* FMMetalCameraView.h */,
+				88408BE82A8C7CBF00707AB1 /* FMMetalCameraView.m */,
+				88408BE72A8C7CBF00707AB1 /* ZYMetalDevice.h */,
+				88408BE92A8C7CBF00707AB1 /* ZYMetalDevice.m */,
+				88408BEE2A8C7E7600707AB1 /* HDR.metal */,
+			);
+			path = MetalHDRToRGB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88408B232A84986F00707AB1 /* X420ToRGB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88408B3D2A84987000707AB1 /* Build configuration list for PBXNativeTarget "X420ToRGB" */;
+			buildPhases = (
+				88408B202A84986F00707AB1 /* Sources */,
+				88408B212A84986F00707AB1 /* Frameworks */,
+				88408B222A84986F00707AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = X420ToRGB;
+			productName = X420ToRGB;
+			productReference = 88408B242A84986F00707AB1 /* X420ToRGB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88408BC92A8C7BA600707AB1 /* MetalHDRToRGB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88408BE22A8C7BA800707AB1 /* Build configuration list for PBXNativeTarget "MetalHDRToRGB" */;
+			buildPhases = (
+				88408BC62A8C7BA600707AB1 /* Sources */,
+				88408BC72A8C7BA600707AB1 /* Frameworks */,
+				88408BC82A8C7BA600707AB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalHDRToRGB;
+			productName = MetalHDRToRGB;
+			productReference = 88408BCA2A8C7BA600707AB1 /* MetalHDRToRGB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88408B1C2A84986F00707AB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					88408B232A84986F00707AB1 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					88408BC92A8C7BA600707AB1 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 88408B1F2A84986F00707AB1 /* Build configuration list for PBXProject "X420ToRGB" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88408B1B2A84986F00707AB1;
+			productRefGroup = 88408B252A84986F00707AB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88408B232A84986F00707AB1 /* X420ToRGB */,
+				88408BC92A8C7BA600707AB1 /* MetalHDRToRGB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88408B222A84986F00707AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88408B372A84987000707AB1 /* LaunchScreen.storyboard in Resources */,
+				88408B522A85EA2E00707AB1 /* original.mov in Resources */,
+				88408B342A84987000707AB1 /* Assets.xcassets in Resources */,
+				88408B322A84986F00707AB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88408BC82A8C7BA600707AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88408BDC2A8C7BA800707AB1 /* LaunchScreen.storyboard in Resources */,
+				88408BD92A8C7BA800707AB1 /* Assets.xcassets in Resources */,
+				88408BD72A8C7BA600707AB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88408B202A84986F00707AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88408B4B2A849A7C00707AB1 /* ZYMetalDevice.m in Sources */,
+				88408B482A8499EA00707AB1 /* FMMetalCameraView.m in Sources */,
+				88408B2F2A84986F00707AB1 /* ViewController.m in Sources */,
+				88408B502A85D98300707AB1 /* ZYProCameraMovieRecorder.m in Sources */,
+				88408B292A84986F00707AB1 /* AppDelegate.m in Sources */,
+				88408B422A84989100707AB1 /* CameraVC.m in Sources */,
+				88408B3A2A84987000707AB1 /* main.m in Sources */,
+				88408B4D2A849BB500707AB1 /* Camera.metal in Sources */,
+				88408B2C2A84986F00707AB1 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88408BC62A8C7BA600707AB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88408BED2A8C7CBF00707AB1 /* ZYMetalDevice.m in Sources */,
+				88408BEC2A8C7CBF00707AB1 /* FMMetalCameraView.m in Sources */,
+				88408BEB2A8C7CBF00707AB1 /* Camera.metal in Sources */,
+				88408BD42A8C7BA600707AB1 /* ViewController.m in Sources */,
+				88408BEF2A8C7E7600707AB1 /* HDR.metal in Sources */,
+				88408BCE2A8C7BA600707AB1 /* AppDelegate.m in Sources */,
+				88408BE52A8C7C9B00707AB1 /* CameraVC.m in Sources */,
+				88408BDF2A8C7BA800707AB1 /* main.m in Sources */,
+				88408BD12A8C7BA600707AB1 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88408B302A84986F00707AB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88408B312A84986F00707AB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88408B352A84987000707AB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88408B362A84987000707AB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		88408BD52A8C7BA600707AB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88408BD62A8C7BA600707AB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88408BDA2A8C7BA800707AB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88408BDB2A8C7BA800707AB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88408B3B2A84987000707AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88408B3C2A84987000707AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88408B3E2A84987000707AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQFEA2B5H2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = X420ToRGB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuyun.X420ToRGB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88408B3F2A84987000707AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQFEA2B5H2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = X420ToRGB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuyun.X420ToRGB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88408BE02A8C7BA800707AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQFEA2B5H2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MetalHDRToRGB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuyun.MetalHDRToRGB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88408BE12A8C7BA800707AB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DQFEA2B5H2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MetalHDRToRGB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuyun.MetalHDRToRGB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88408B1F2A84986F00707AB1 /* Build configuration list for PBXProject "X420ToRGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88408B3B2A84987000707AB1 /* Debug */,
+				88408B3C2A84987000707AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88408B3D2A84987000707AB1 /* Build configuration list for PBXNativeTarget "X420ToRGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88408B3E2A84987000707AB1 /* Debug */,
+				88408B3F2A84987000707AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88408BE22A8C7BA800707AB1 /* Build configuration list for PBXNativeTarget "MetalHDRToRGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88408BE02A8C7BA800707AB1 /* Debug */,
+				88408BE12A8C7BA800707AB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88408B1C2A84986F00707AB1 /* Project object */;
+}
