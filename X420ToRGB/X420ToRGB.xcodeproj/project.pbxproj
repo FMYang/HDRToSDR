@@ -19,7 +19,6 @@
 		88408B4B2A849A7C00707AB1 /* ZYMetalDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408B4A2A849A7C00707AB1 /* ZYMetalDevice.m */; };
 		88408B4D2A849BB500707AB1 /* Camera.metal in Sources */ = {isa = PBXBuildFile; fileRef = 88408B4C2A849BB500707AB1 /* Camera.metal */; };
 		88408B502A85D98300707AB1 /* ZYProCameraMovieRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408B4F2A85D98300707AB1 /* ZYProCameraMovieRecorder.m */; };
-		88408B522A85EA2E00707AB1 /* original.mov in Resources */ = {isa = PBXBuildFile; fileRef = 88408B512A85EA2E00707AB1 /* original.mov */; };
 		88408BCE2A8C7BA600707AB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408BCD2A8C7BA600707AB1 /* AppDelegate.m */; };
 		88408BD12A8C7BA600707AB1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408BD02A8C7BA600707AB1 /* SceneDelegate.m */; };
 		88408BD42A8C7BA600707AB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88408BD32A8C7BA600707AB1 /* ViewController.m */; };
@@ -56,7 +55,6 @@
 		88408B4C2A849BB500707AB1 /* Camera.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Camera.metal; sourceTree = "<group>"; };
 		88408B4E2A85D98300707AB1 /* ZYProCameraMovieRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYProCameraMovieRecorder.h; sourceTree = "<group>"; };
 		88408B4F2A85D98300707AB1 /* ZYProCameraMovieRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYProCameraMovieRecorder.m; sourceTree = "<group>"; };
-		88408B512A85EA2E00707AB1 /* original.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = original.mov; sourceTree = "<group>"; };
 		88408BCA2A8C7BA600707AB1 /* MetalHDRToRGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalHDRToRGB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88408BCC2A8C7BA600707AB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88408BCD2A8C7BA600707AB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 		88408B262A84986F00707AB1 /* X420ToRGB */ = {
 			isa = PBXGroup;
 			children = (
-				88408B512A85EA2E00707AB1 /* original.mov */,
 				88408B4C2A849BB500707AB1 /* Camera.metal */,
 				88408B492A849A7C00707AB1 /* ZYMetalDevice.h */,
 				88408B4A2A849A7C00707AB1 /* ZYMetalDevice.m */,
@@ -248,7 +245,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				88408B372A84987000707AB1 /* LaunchScreen.storyboard in Resources */,
-				88408B522A85EA2E00707AB1 /* original.mov in Resources */,
 				88408B342A84987000707AB1 /* Assets.xcassets in Resources */,
 				88408B322A84986F00707AB1 /* Main.storyboard in Resources */,
 			);

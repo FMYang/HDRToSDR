@@ -186,6 +186,33 @@
     CFRelease(rgbPixelBuffer);
 }
 
+#pragma mark - X420 to RGB
+
+- (CVPixelBufferRef)convertHDRToRGBPixelBuffer:(CVPixelBufferRef)pixel {
+    CIImage *ciImage = [CIImage imageWithCVPixelBuffer:pixel];
+    CIContext *context = [CIContext context];
+    NSDictionary *pixelBufferAttributes = @{
+        (__bridge NSString *)kCVPixelBufferCGImageCompatibilityKey: @YES,
+        (__bridge NSString *)kCVPixelBufferCGBitmapContextCompatibilityKey: @YES,
+        (__bridge NSString *)kCVPixelBufferMetalCompatibilityKey: @YES,
+        (__bridge NSString *)kCVPixelBufferPixelFormatTypeKey: @(kCVPixelFormatType_32BGRA),
+    };
+
+    CVPixelBufferRef pixelBuffer;
+    CVReturn status = CVPixelBufferCreate(kCFAllocatorDefault,
+                                           ciImage.extent.size.width,
+                                           ciImage.extent.size.height,
+                                           kCVPixelFormatType_32BGRA,
+                                           (__bridge CFDictionaryRef)pixelBufferAttributes,
+                                           &pixelBuffer);
+    if (status != kCVReturnSuccess) {
+        return nil;
+    }
+
+    [context render:ciImage toCVPixelBuffer:pixelBuffer];
+    return pixelBuffer;
+}
+
 #pragma mark - 方向
 - (CGAffineTransform)transformFromVideoBufferOrientationToOrientation:(AVCaptureVideoOrientation)orientation withAutoMirroring:(BOOL)mirror {
     CGAffineTransform transform = CGAffineTransformIdentity;
@@ -236,34 +263,6 @@ static CGFloat angleOffsetFromPortraitOrientationToOrientation(AVCaptureVideoOri
     }
     
     return angle;
-}
-
-
-#pragma mark - X420 to RGB
-
-- (CVPixelBufferRef)convertHDRToRGBPixelBuffer:(CVPixelBufferRef)pixel {
-    CIImage *ciImage = [CIImage imageWithCVPixelBuffer:pixel];
-    CIContext *context = [CIContext context];
-    NSDictionary *pixelBufferAttributes = @{
-        (__bridge NSString *)kCVPixelBufferCGImageCompatibilityKey: @YES,
-        (__bridge NSString *)kCVPixelBufferCGBitmapContextCompatibilityKey: @YES,
-        (__bridge NSString *)kCVPixelBufferMetalCompatibilityKey: @YES,
-        (__bridge NSString *)kCVPixelBufferPixelFormatTypeKey: @(kCVPixelFormatType_32BGRA),
-    };
-
-    CVPixelBufferRef pixelBuffer;
-    CVReturn status = CVPixelBufferCreate(kCFAllocatorDefault,
-                                           ciImage.extent.size.width,
-                                           ciImage.extent.size.height,
-                                           kCVPixelFormatType_32BGRA,
-                                           (__bridge CFDictionaryRef)pixelBufferAttributes,
-                                           &pixelBuffer);
-    if (status != kCVReturnSuccess) {
-        return nil;
-    }
-
-    [context render:ciImage toCVPixelBuffer:pixelBuffer];
-    return pixelBuffer;
 }
 
 #pragma mark - record
